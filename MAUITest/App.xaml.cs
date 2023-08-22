@@ -8,6 +8,7 @@
 
             //MainPage = new AppShell();
 
+            /*
             var navPage = new NavigationPage(new ContentPageDemo());
 
             navPage.BarBackgroundColor = Colors.Chocolate;
@@ -15,6 +16,9 @@
             navPage.Title = "Demo MAUI";
 
             MainPage = navPage;
+            */
+
+            MainPage = new NavigationPage(new FlyoutPageDemo());
         }
     }
 }
